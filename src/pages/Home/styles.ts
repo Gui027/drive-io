@@ -18,7 +18,7 @@ export const Header = styled.main`
   background: #000;
 `
 
-export const Content = styled.div`
+export const Content1 = styled.div`
   display: flex;
   flex-direction: row;
 
@@ -41,7 +41,30 @@ export const Content = styled.div`
   }
 `
 
-export const Image = styled.div`
+export const Image1 = styled.div`
+  img {
+    display: block;
+    margin: auto;
+  }
+`
+export const Content2 = styled.div`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  > h2 {
+    color: #1A2254
+  }
+`
+
+export const Content3 = styled.div`
+  display: flex;
+  flex-direction: row;
+`
+
+export const Image2 = styled.div`
   img {
     display: block;
     margin: auto;
