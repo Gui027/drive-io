@@ -6,6 +6,8 @@ import Image1 from '../../assets/mockupCel.png';
 import Image2 from '../../assets/fotcel.png';
 import Video from '../../assets/video.mp4';
 
+import { AiOutlineCheckCircle } from 'react-icons/ai'
+
 function Home() {
 
   return (
@@ -27,7 +29,7 @@ function Home() {
         <h2>Veja como funciona o sistema completo</h2>
         <h2>para gestão de frotas</h2>
         <video width="50%" controls="controls">
-          <source src={Video} type="video/mp4"/>
+          <source src={Video} type="video/mp4" />
         </video>
       </S.Content2>
       <S.Content3>
@@ -38,9 +40,20 @@ function Home() {
           <h1>Aplicativo Drive IO</h1>
           <h6>Não está na frente do computador?</h6>
           <h6>Tenha visibilidade da sua frota onde estiver:</h6>
-          <h5>LOCALIZAÇÃO DOS VEÍCULOS NO MAPA</h5>
-          <h5>STATUS DA IGNIÇÃO</h5>
-          <h5>VELOCIDADE DOS VEÍCULOS</h5>
+          <h5>
+            <ul>
+              <AiOutlineCheckCircle className="iconCheck" />
+              LOCALIZAÇÃO DOS VEÍCULOS NO MAPA
+            </ul>
+            <ul>
+              <AiOutlineCheckCircle className="iconCheck" />
+              STATUS DA IGNIÇÃO
+            </ul>
+            <ul>
+              <AiOutlineCheckCircle className="iconCheck" />
+              VELOCIDADE DOS VEÍCULOS
+            </ul>
+          </h5>
         </div>
       </S.Content3>
     </S.Container>
