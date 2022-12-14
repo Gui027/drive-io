@@ -28,7 +28,7 @@ function Home() {
       <S.Content2>
         <h2>Veja como funciona o sistema completo</h2>
         <h2>para gestão de frotas</h2>
-        <video width="50%" controls="controls">
+        <video width="50%">
           <source src={Video} type="video/mp4" />
         </video>
       </S.Content2>
