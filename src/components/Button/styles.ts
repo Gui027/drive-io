@@ -9,7 +9,7 @@ export const Container = styled.button`
   width: 230px;
   height: 60px;
   border-radius: 100px;
-  margin-top: 50px;
+  margin-top: 30px;
   transition: all 0.25s ease-out;
 
   &:hover {

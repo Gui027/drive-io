@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   /* max-width: 110px; */
-  margin: auto;
+  margin: 0px 18px;
 
   main {
     flex: 1;
@@ -21,6 +21,7 @@ export const Header = styled.main`
 export const Content1 = styled.div`
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 
   > div {
     width: 50%;
@@ -37,14 +38,15 @@ export const Content1 = styled.div`
     color: rgba(30, 37, 94, 0.7);
     font-weight: normal;
     padding-right: 100px;
-    margin-top: 25px;
+    margin-top: 5px;
   }
 `
 
 export const Image1 = styled.div`
   img {
+    width: 700px;
     display: block;
-    margin: auto;
+    margin: 0 0px;
   }
 `
 export const Content2 = styled.div`
