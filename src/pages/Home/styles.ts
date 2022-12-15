@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
+  /* width: 100%; */
   margin: 0px 18px;
   padding: 0px 20px;
+  overflow-x: hidden;
 
   main {
     flex: 1;
@@ -21,7 +22,7 @@ export const Header = styled.main`
 export const Content1 = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 75px;
+  margin-top: 85px;
 
   > div {
     width: 50%;
