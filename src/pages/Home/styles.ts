@@ -56,12 +56,19 @@ export const Content2 = styled.div`
   flex-direction: column;
 
   > h2 {
+    font-size: 35px;
     color: #1A2254
+  }
+
+  > video {
+    width: 800px;
+    margin-top: 35px;
   }
 `
 
 export const Content3 = styled.div`
   display: flex;
+  margin-top: 50px;
   flex-direction: row;
 `
 
