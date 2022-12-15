@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  /* max-width: 110px; */
   margin: 0px 18px;
+  padding: 0px 20px;
 
   main {
     flex: 1;
@@ -21,7 +21,7 @@ export const Header = styled.main`
 export const Content1 = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
+  margin-top: 75px;
 
   > div {
     width: 50%;
@@ -45,11 +45,10 @@ export const Content1 = styled.div`
 export const Image1 = styled.div`
   img {
     width: 700px;
-    display: block;
-    margin: 0 0px;
   }
 `
 export const Content2 = styled.div`
+  margin-top: 50px;
   flex: 1;
   justify-content: center;
   align-items: center;
