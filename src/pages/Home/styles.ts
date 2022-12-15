@@ -32,6 +32,7 @@ export const Content1 = styled.div`
     color: #1A2254;
     font-size: 56px;
     font-weight: bold;
+    line-height: 78px;
   }
 
   h6 {
@@ -40,6 +41,10 @@ export const Content1 = styled.div`
     font-weight: normal;
     padding-right: 100px;
     margin-top: 5px;
+  }
+
+  span {
+    color: #00A5FA;
   }
 `
 
@@ -56,6 +61,10 @@ export const Content2 = styled.div`
   display: flex;
   flex-direction: column;
 
+  span {
+    color: #00A5FA;
+  }
+
   > h2 {
     font-size: 35px;
     color: #1A2254
@@ -71,6 +80,38 @@ export const Content3 = styled.div`
   display: flex;
   margin-top: 50px;
   flex-direction: row;
+
+  span {
+    color: #00A5FA;
+  }
+
+  .iconCheck {
+    color: #01D8A9;
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1A2254;
+    margin-bottom: 30px;
+  }
+
+  h6 {
+    font-size: 15px;
+    color: rgba(30, 37, 94, 0.7);
+    font-weight: normal;
+    margin-top: 5px;
+    line-height: 8px;
+  }
+
+  h5 {
+  }
+
+  ul {
+    font-size: 14px;
+    color: black;
+  }
 `
 
 export const Image2 = styled.div`

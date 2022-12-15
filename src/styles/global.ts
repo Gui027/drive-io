@@ -15,6 +15,10 @@ const globalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
   }
 
+  h1 {
+    font-family: 'Rubik', sans-serif;
+  }
+
   buttons {
     background-color: none;
     border: none;

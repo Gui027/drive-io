@@ -15,7 +15,7 @@ function Home() {
       <Header />
       <S.Content1>
         <div>
-          <h1>Orquestre o seu processo de gestão de frotas e ativos</h1>
+          <h1>Orquestre o seu processo de <span>gestão de frotas</span> e ativos</h1>
           <h6>
             Com um bom controle de frota você garante a redução de custos da sua operação de forma fácil, rápida e inteligente!
           </h6>
@@ -26,8 +26,8 @@ function Home() {
         </S.Image1>
       </S.Content1>
       <S.Content2>
-        <h2>Veja como funciona o sistema completo</h2>
-        <h2>para gestão de frotas</h2>
+        <h2>Veja como funciona o <span>sistema completo</span></h2>
+        <h2>para <span>gestão de frotas</span></h2>
         <video width="50%">
           <source src={Video} type="video/mp4" />
         </video>
@@ -37,12 +37,12 @@ function Home() {
           <img src={Image2} alt="imagem cel de lado" />
         </S.Image2>
         <div>
-          <h1>Aplicativo Drive IO</h1>
+          <h1>Aplicativo <span>Drive IO</span></h1>
           <h6>Não está na frente do computador?</h6>
           <h6>Tenha visibilidade da sua frota onde estiver:</h6>
           <h5>
             <ul>
-              <AiOutlineCheckCircle className="iconCheck" />
+              <AiOutlineCheckCircle className="iconCheck"/>
               LOCALIZAÇÃO DOS VEÍCULOS NO MAPA
             </ul>
             <ul>
