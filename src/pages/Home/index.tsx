@@ -2,7 +2,7 @@ import Button from '../../components/Button';
 import Header from '../../components/Header';
 import * as S from './styles';
 
-import Image1 from '../../assets/mockupCel.png';
+import Image1 from '../../assets/especial.png';
 import Image2 from '../../assets/fotcel.png';
 import Video from '../../assets/video.mp4';
 

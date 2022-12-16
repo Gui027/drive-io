@@ -50,6 +50,7 @@ export const Content1 = styled.div`
 
 export const Image1 = styled.div`
   img {
+    margin-top: -50px;
     width: 700px;
   }
 `
