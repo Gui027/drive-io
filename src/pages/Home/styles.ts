@@ -93,7 +93,7 @@ export const Content2 = styled.div`
 
 export const Content3 = styled.div`
   display: flex;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   flex-direction: row;
 
   span {
