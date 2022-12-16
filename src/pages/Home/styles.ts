@@ -66,7 +66,8 @@ export const Content2 = styled.div`
     color: #00A5FA;
   }
 
-  > h2 {
+  > h1 {
+    text-align: center;
     font-size: 35px;
     color: #1A2254
   }
@@ -77,9 +78,22 @@ export const Content2 = styled.div`
   }
 `
 
+ export const Text = styled.h1`
+  margin-top: 50px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #1A2254;
+  /* margin-bottom: 30px; */
+
+  span {
+    color: #00A5FA;
+  }
+ `
+
 export const Content3 = styled.div`
   display: flex;
-  margin-top: 50px;
+  margin-top: 35px;
   flex-direction: row;
 
   span {
@@ -89,6 +103,8 @@ export const Content3 = styled.div`
   .iconCheck {
     color: #01D8A9;
     font-size: 30px;
+    margin-left: -10px;
+    margin-right: 8px;
   }
 
   h1 {
@@ -103,15 +119,26 @@ export const Content3 = styled.div`
     color: rgba(30, 37, 94, 0.7);
     font-weight: normal;
     margin-top: 5px;
-    line-height: 8px;
+    margin-bottom: 10px;
+    /* width: 331px; */
+    /* line-height: 8px; */
   }
 
   h5 {
   }
 
   ul {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
     font-size: 14px;
     color: black;
+  }
+
+  img {
+    margin-top: 100px;
+    width: 50px;
   }
 `
 
@@ -119,5 +146,6 @@ export const Image2 = styled.div`
   img {
     display: block;
     margin: auto;
+    width: 700px;
   }
 `
