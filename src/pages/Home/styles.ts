@@ -12,6 +12,7 @@ export const Container = styled.div`
     align-items: center;
     display: flex;
   }
+
 `
 
 export const Header = styled.main`
@@ -78,7 +79,7 @@ export const Content2 = styled.div`
   }
 `
 
- export const Text = styled.h1`
+export const Text = styled.h1`
   margin-top: 50px;
   font-size: 15px;
   text-align: center;
@@ -148,4 +149,51 @@ export const Image2 = styled.div`
     margin: auto;
     width: 700px;
   }
+`
+
+export const Content4 = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  div {
+    img {
+      width: 80px;
+      border-radius: 50%;
+      border: 2px solid #005BE8;
+      margin-bottom: 50px;
+    }
+  }
+
+  .prova {
+
+  }
+
+  .box {
+  display: flex;
+  flex-direction: row;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #005BE8;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+`
+
+export const TextProva = styled.div`
+  font-size: 15px;
+  color: rgba(30, 37, 94, 0.7);
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 500;
+  width: 425px;
 `
