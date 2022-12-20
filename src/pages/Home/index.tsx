@@ -1,7 +1,6 @@
+import * as S from './styles';
 import Button from '../../components/Button';
 import Header from '../../components/Header';
-import * as S from './styles';
-
 import Image1 from '../../assets/especial_1.png';
 import Image2 from '../../assets/mockup1.png';
 import Video from '../../assets/video.mp4';
@@ -10,7 +9,7 @@ import ImageProva1 from '../../assets/provaSocial1.jpeg';
 import ImageProva2 from '../../assets/provaSocial2.jpeg';
 import ImageProva3 from '../../assets/provaSocial3.jpeg';
 import ImageProva4 from '../../assets/provaSocial4.jpeg';
-
+import Footer from '../../components/Footer';
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 
 function Home() {
@@ -103,6 +102,7 @@ function Home() {
           </div>
         </div>
       </S.Content4>
+      <Footer />
     </S.Container>
   )
 }

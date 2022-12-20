@@ -2,13 +2,13 @@ import { createGlobalStyle } from 'styled-components'
 
 const globalStyle = createGlobalStyle`
   * {
-    padding: 5px;
+    /* padding: 5px; */
     margin: 0;
     box-sizing: border-box;
   }
 
   html, body {
-    height: 100%;
+    /* height: 100%; */
   }
 
   body {

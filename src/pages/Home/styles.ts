@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   /* width: 100%; */
-  margin: 0px 18px;
-  padding: 0px 20px;
+  /* margin: 0px 18px;
+  padding: 0px 20px; */
   overflow-x: hidden;
 
   main {
@@ -26,6 +26,7 @@ export const Content1 = styled.div`
   margin-top: 85px;
 
   > div {
+    padding: 5px;
     width: 50%;
   }
 
