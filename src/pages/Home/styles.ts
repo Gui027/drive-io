@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* width: 100%; */
+  width: 100%;
   /* margin: 0px 18px;
   padding: 0px 20px; */
   overflow-x: hidden;
@@ -16,8 +16,16 @@ export const Container = styled.div`
 `
 
 export const Header = styled.main`
+  padding: 0px 20px;
   height: 72px;
   background: #000;
+
+  main {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 `
 
 export const Content1 = styled.div`
@@ -26,6 +34,7 @@ export const Content1 = styled.div`
   margin-top: 85px;
 
   > div {
+    margin: 10px 21px;
     padding: 5px;
     width: 50%;
   }
@@ -61,6 +70,7 @@ export const Content2 = styled.div`
   flex: 1;
   justify-content: center;
   align-items: center;
+  align-content: center;
   display: flex;
   flex-direction: column;
 
@@ -79,9 +89,23 @@ export const Content2 = styled.div`
     margin-top: 35px;
   }
 `
-
 export const Text = styled.h1`
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #1A2254;
+  /* margin-bottom: 30px; */
+
+  span {
+    color: #00A5FA;
+  }
+ `
+
+export const Text2 = styled.h1`
   margin-top: 50px;
+  margin-bottom: 80px;
   font-size: 15px;
   text-align: center;
   font-weight: bold;
@@ -94,18 +118,24 @@ export const Text = styled.h1`
  `
 
 export const Content3 = styled.div`
+  margin: 10px 18px;
+  padding: 0px 20px;
+  align-items: center;
   display: flex;
-  /* margin-top: 35px; */
   flex-direction: row;
 
   span {
     color: #00A5FA;
   }
 
+  div {
+    margin-top: 20px
+  }
+
   .iconCheck {
     color: #01D8A9;
     font-size: 30px;
-    margin-left: -10px;
+    margin-left: -40px;
     margin-right: 8px;
   }
 
@@ -139,23 +169,24 @@ export const Content3 = styled.div`
   }
 
   img {
-    margin-top: 100px;
+    /* margin-top: 10px; */
     width: 50px;
   }
 `
 
 export const Image2 = styled.div`
   img {
-    display: block;
-    margin: auto;
+    /* display: block; */
+    /* margin: auto; */
     width: 700px;
   }
 `
 
 export const Content4 = styled.div`
+  margin: 0px 18px;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
 
   div {
     img {
@@ -163,6 +194,10 @@ export const Content4 = styled.div`
       border-radius: 50%;
       border: 2px solid #005BE8;
       margin-bottom: 50px;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      align-self: center;
     }
   }
 
@@ -171,30 +206,43 @@ export const Content4 = styled.div`
   }
 
   .box {
+  margin: 0px 18px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: row;
+  
+  h1 {
+    margin-top: 6px;
+  }
+  /* align-content: center; */
   }
 
   h1 {
+    margin: 0px 0px;
+    padding: 0px 20px;
     font-size: 18px;
     font-weight: 600;
     color: #005BE8;
+    margin-bottom: 6px;
   }
 
   h2 {
+    margin: 0px 0px;
+    padding: 0px 20px;
     font-size: 15px;
     font-weight: 500;
   }
-
 `
 
 export const TextProva = styled.div`
+  margin: 0px 18px;
+  padding: 0px 20px;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
   font-size: 15px;
   color: rgba(30, 37, 94, 0.7);
   font-weight: normal;
-  margin-top: 5px;
-  margin-bottom: 10px;
   font-style: italic;
   font-weight: 500;
-  width: 425px;
+  width: 429px;
 `

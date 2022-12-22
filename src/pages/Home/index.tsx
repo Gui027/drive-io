@@ -30,13 +30,13 @@ function Home() {
         </S.Image1>
       </S.Content1>
       <S.Content2>
-        <h1>Veja como funciona o<span>sistema completo</span> <br /> para <span>gestão de frotas</span></h1>
+        <h1>Veja como funciona o <span>sistema completo</span> <br /> para <span>gestão de frotas</span></h1>
         <video width="50%">
           <source src={Video} type="video/mp4" />
         </video>
       </S.Content2>
       <S.Text>
-        <h1>Mais do que um rastreador, uma <span>solução</span> <br /> integrada de<span>controle de frota</span></h1>
+        <h1>Mais do que um rastreador, uma <span>solução</span> <br /> integrada de <span>controle de frota</span></h1>
       </S.Text>
       <S.Content3>
         <S.Image2>
@@ -59,9 +59,9 @@ function Home() {
           </h5>
         </div>
       </S.Content3>
-      <S.Text>
-        <h1>O que nossos<span>clientes</span>dizem</h1>
-      </S.Text>
+      <S.Text2>
+        <h1>O que nossos <span>clientes</span> dizem</h1>
+      </S.Text2>
       <S.Content4>
         <div className="prova">
           <div><S.TextProva>“Hoje, nossas equipes atendem até 50% mais incidentes e nossa alocação caiu de 5 para 3 minutos. No nosso ramo, o tempo representa vida.”</S.TextProva></div>

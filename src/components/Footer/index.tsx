@@ -5,18 +5,20 @@ import Social from '../Social Icons';
 
 const Footer = () => {
   return (
-    <S.Container>
-      <div>
-        <img src={LogoBranca} alt="Logo Branca" />
-        <Social />
-      </div>
-      <div id="linha-horizontal"></div>
-      <div>
-        <h6>Copyright © 2022-2023 Drive-IO.
-          Todos os direitos reservados.</h6>
-        <h6>(27)37112145</h6>
-      </div>
-    </S.Container>
+    <>
+      <S.Container>
+        <div className="footer-content">
+          <img src={LogoBranca} alt="Logo Branca" />
+          {/* <h3>drive - IO</h3> */}
+          <p>Que tal reinventar sua gestão de frota com tecnologia?
+            Novos caminhos nos levam a novos resultados. </p>
+          <Social />
+        </div>
+        <div className="footer-bottom">
+          <p>copyright &copy;2020 Drive-IO. designed by <span>Update</span></p>
+        </div>
+      </S.Container>
+    </>
   )
 }
 

@@ -6,11 +6,12 @@ export const SocialList = styled.ul`
 `
 export const ItemList = styled.li`
  .iconSocial {
-    color: #07074E;
-    font-size: 30px;
-    background-color: rgba(30, 37, 94, 1);
+    color: #1A2254;
+    background-color: #8A9FC3;
     border-radius: 50%;
     align-content: center;
+    width: 30px;
+    height: 30px;
 
     &:hover {
       background-color: #FFF;
