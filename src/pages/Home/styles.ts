@@ -32,6 +32,10 @@ export const Content1 = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 85px;
+  margin-bottom: 10px;
+  margin-right: 18px;
+  margin-left: 18px;
+  padding: 0px 20px;
 
   > div {
     margin: 10px 21px;

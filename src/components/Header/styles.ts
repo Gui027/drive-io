@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Box = styled.header`
-  margin: 10px 18px;
+  align-content: center;
+  margin: 20px 40px;
   padding: 0px 20px;
   height: 42px;
   display: flex;
