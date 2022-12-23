@@ -11,6 +11,7 @@ import ImageProva3 from '../../assets/provaSocial3.jpeg';
 import ImageProva4 from '../../assets/provaSocial4.jpeg';
 import Footer from '../../components/Footer';
 import { AiOutlineCheckCircle } from 'react-icons/ai'
+import Faq from '../../components/Faq';
 
 function Home() {
 
@@ -102,6 +103,10 @@ function Home() {
           </div>
         </div>
       </S.Content4>
+      <S.Text3>
+        <h1><span>Dúvidas</span> frequentes</h1>
+      </S.Text3>
+      <Faq />
       <Footer />
     </S.Container>
   )

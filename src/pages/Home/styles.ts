@@ -120,7 +120,18 @@ export const Text2 = styled.h1`
     color: #00A5FA;
   }
  `
+export const Text3 = styled.h1`
+margin-top: 80px;
+margin-bottom: 30px;
+font-size: 15px;
+text-align: center;
+font-weight: bold;
+color: #1A2254;
 
+span {
+  color: #00A5FA;
+}
+`
 export const Content3 = styled.div`
   margin: 10px 18px;
   padding: 0px 20px;
