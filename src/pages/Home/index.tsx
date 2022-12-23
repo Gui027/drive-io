@@ -17,7 +17,7 @@ function Home() {
   return (
     <S.Container className="App">
       <Header />
-      <S.Content1>
+      <S.Content1 id="content1">
         <div>
           <h1>Orquestre o seu processo de <span>gestão de frotas</span> e ativos</h1>
           <h6>
@@ -29,7 +29,7 @@ function Home() {
           <img src={Image1} alt="Imagem Cel" />
         </S.Image1>
       </S.Content1>
-      <S.Content2>
+      <S.Content2 id="content2">
         <h1>Veja como funciona o <span>sistema completo</span> <br /> para <span>gestão de frotas</span></h1>
         <video width="50%">
           <source src={Video} type="video/mp4" />
@@ -59,7 +59,7 @@ function Home() {
           </h5>
         </div>
       </S.Content3>
-      <S.Text2>
+      <S.Text2 id="content3">
         <h1>O que nossos <span>clientes</span> dizem</h1>
       </S.Text2>
       <S.Content4>

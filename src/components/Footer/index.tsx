@@ -15,7 +15,7 @@ const Footer = () => {
           <Social />
         </div>
         <div className="footer-bottom">
-          <p>copyright &copy;2020 Drive-IO. designed by <span>Update</span></p>
+          <p>copyright &copy;2023 Drive-IO. designed by <span>Update</span></p>
         </div>
       </S.Container>
     </>
