@@ -12,13 +12,14 @@ import ImageProva4 from '../../assets/provaSocial4.jpeg';
 import Footer from '../../components/Footer';
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 import Faq from '../../components/Faq';
+import Price from '../../components/Price';
 
 function Home() {
 
   return (
     <S.Container className="App">
       <Header />
-      <S.Content1 id="content1">
+      <S.Content1 id="home">
         <div>
           <h1>Orquestre o seu processo de <span>gestão de frotas</span> e ativos</h1>
           <h6>
@@ -30,7 +31,7 @@ function Home() {
           <img src={Image1} alt="Imagem Cel" />
         </S.Image1>
       </S.Content1>
-      <S.Content2 id="content2">
+      <S.Content2 id="sobre">
         <h1>Veja como funciona o <span>sistema completo</span> <br /> para <span>gestão de frotas</span></h1>
         <video width="50%">
           <source src={Video} type="video/mp4" />
@@ -60,7 +61,12 @@ function Home() {
           </h5>
         </div>
       </S.Content3>
-      <S.Text2 id="content3">
+      <S.Prices id="planos">
+        <div>
+          <Price />
+        </div>
+      </S.Prices>
+      <S.Text2 id="clientes">
         <h1>O que nossos <span>clientes</span> dizem</h1>
       </S.Text2>
       <S.Content4>
@@ -103,11 +109,16 @@ function Home() {
           </div>
         </div>
       </S.Content4>
-      <S.Text3>
+      <S.Text3 id="duvidas">
         <h1><span>Dúvidas</span> frequentes</h1>
       </S.Text3>
-      <Faq />
-      <Footer />
+      <div >
+        <Faq />
+        <div className='button'>
+          <Button />
+        </div>
+        <Footer />
+      </div>
     </S.Container>
   )
 }

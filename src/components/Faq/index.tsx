@@ -15,16 +15,16 @@ const Faq = () => {
   }
   const data = [
     {
-      question: 'Question 1',
-      answer: "Lorem ipsum dolor sit amet. Cum minima soluta quo blanditiis quam qui quidem facilis. Et animi eius eum veniam vitae vel tenetur repellat. Aut dolore pariatur quo nisi sunt At blanditiis velit qui officiis quaerat est ipsa voluptates."
+      question: 'Para que serve ?',
+      answer: "O software permite saber todas as viagens realizadas por veículo, como é o comportamento de cada condutor (se dirige rápido ou faz manobras perigosas, por exemplo) e o tempo das paradas ao longo da viagem – uma forma eficaz de não só medir eventuais atrasos, mas também verificar se o motorista está cumprindo com os períodos de descanso previstos na legislação trabalhista. Com esse tipo de dados, o gestor da frota é capaz de extrair informações e relatórios úteis para o dia a dia da empresa."
     },
     {
-      question: 'Question 2',
-      answer: "Lorem ipsum dolor sit amet. Cum minima soluta quo blanditiis quam qui quidem facilis. Et animi eius eum veniam vitae vel tenetur repellat. Aut dolore pariatur quo nisi sunt At blanditiis velit qui officiis quaerat est ipsa voluptates."
+      question: 'Por que contratar ?',
+      answer: "Um bom sistema de controle de frotas é capaz de armazenar dados sobre as viagens feitas pelos veículos da empresa e, a partir disso, gerar benefícios. Usando ele, é possível analisar essas informações e aprender como reduzir custos, aumentar a segurança e ainda tornar a operação mais eficiente."
     },
     {
-      question: 'Question 3',
-      answer: "Lorem ipsum dolor sit amet. Cum minima soluta quo blanditiis quam qui quidem facilis. Et animi eius eum veniam vitae vel tenetur repellat. Aut dolore pariatur quo nisi sunt At blanditiis velit qui officiis quaerat est ipsa voluptates."
+      question: 'Como contratar ?',
+      answer: "Clique no botão abaixo para preencher o formulário. Nossos especialistas entrarão em contato dentro do horário comercial, de segunda à sexta."
     },
   ]
 

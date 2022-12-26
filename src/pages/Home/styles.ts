@@ -13,6 +13,11 @@ export const Container = styled.div`
     display: flex;
   }
 
+.button {
+  margin-left: -60%;
+  text-align: center;
+  margin-bottom: 80px;
+}
 `
 
 export const Header = styled.main`
@@ -260,4 +265,8 @@ export const TextProva = styled.div`
   font-style: italic;
   font-weight: 500;
   width: 429px;
+`
+
+export const Prices = styled.div`
+  /* background-color: black; */
 `

@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const Faq = styled.main`
   .wrapper {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh; */
+    /* width: 100vw; */
     justify-content: center;
     align-items: center;
   }
 
   .accordion {
-    width: 500px;
+    width: 999px;
   }
 
   .item {
@@ -20,7 +20,9 @@ export const Faq = styled.main`
   }
 
   .title {
-    color: #85662b;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #1A2254;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +30,7 @@ export const Faq = styled.main`
   }
 
   .content {
-    color: #8b7f75;
+    color: rgba(30, 37, 94, 0.7);
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
