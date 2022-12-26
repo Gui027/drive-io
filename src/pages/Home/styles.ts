@@ -75,6 +75,7 @@ export const Image1 = styled.div`
   }
 `
 export const Content2 = styled.div`
+background-color: #F0EBE1;
   margin-top: 50px;
   flex: 1;
   justify-content: center;
