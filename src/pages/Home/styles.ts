@@ -75,7 +75,8 @@ export const Image1 = styled.div`
   }
 `
 export const Content2 = styled.div`
-background-color: #F0EBE1;
+  height: 800px;
+  background-color: #F0EBE1;
   margin-top: 50px;
   flex: 1;
   justify-content: center;
@@ -97,6 +98,7 @@ background-color: #F0EBE1;
   > video {
     width: 800px;
     margin-top: 35px;
+    border-radius: 30px;
   }
 `
 export const Text = styled.h1`

@@ -1,21 +1,25 @@
 import styled from 'styled-components';
 
-export const Box = styled.header`
+export const Box = styled.div`
+  height: 500px;
   background-color: #F0EBE1;
   align-items: center;
-  align-self: center;
   align-content: center;
   text-align: center;
   font-size: 20px;
   margin-top: 120px;
   margin-bottom: 120px;
   color: #1A2254;
+  flex: 1;
+  justify-content: center;
+  display: flex;
   
   span {
     color: #00A5FA;
   }
 
   h1 {
+    text-align: center;
     line-height: 50px;
   }
 

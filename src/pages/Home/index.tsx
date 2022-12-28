@@ -62,9 +62,9 @@ function Home() {
         </div>
       </S.Content3>
       <S.Prices id="planos">
-        <div>
-          <Price />
-        </div>
+
+        <Price />
+
       </S.Prices>
       <S.Text2 id="clientes">
         <h1>O que nossos <span>clientes</span> dizem</h1>

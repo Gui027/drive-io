@@ -15,6 +15,7 @@ export const Faq = styled.main`
 
   .item {
     background: #f0ebe1;
+    border-radius: 30px;
     margin-bottom: 5px;
     padding: 10px 20px;
   }
