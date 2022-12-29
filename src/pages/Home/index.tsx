@@ -33,7 +33,7 @@ function Home() {
       </S.Content1>
       <S.Content2 id="sobre">
         <h1>Veja como funciona o <span>sistema completo</span> <br /> para <span>gestão de frotas</span></h1>
-        <video width="50%">
+        <video width="50%" controls>
           <source src={Video} type="video/mp4" />
         </video>
       </S.Content2>
