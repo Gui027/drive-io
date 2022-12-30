@@ -15,4 +15,14 @@ export const Box = styled.header`
     width: 170px;
     height: 50px;
   }
+
+  @media (max-width: 600px) {
+    margin: 20px 40px;
+    padding: 0px 20px;
+    
+   img {
+    width: 110px;
+    height: 30px;
+   }
+  }
   `

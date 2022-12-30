@@ -66,9 +66,9 @@ function Home() {
         <Price />
 
       </S.Prices>
-      <S.Text2 id="clientes">
+      <S.TextClientes id="clientes">
         <h1>O que nossos <span>clientes</span> dizem</h1>
-      </S.Text2>
+      </S.TextClientes>
       <S.Content4>
         <div className="prova">
           <div><S.TextProva>“Hoje, nossas equipes atendem até 50% mais incidentes e nossa alocação caiu de 5 para 3 minutos. No nosso ramo, o tempo representa vida.”</S.TextProva></div>

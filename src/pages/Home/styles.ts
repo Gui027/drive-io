@@ -31,6 +31,11 @@ export const Header = styled.main`
     align-items: center;
     display: flex;
   }
+
+  @media (max-width: 600px) {
+    align-items: center;
+    align-content: center;
+  }
 `
 
 export const Content1 = styled.div`
@@ -66,12 +71,50 @@ export const Content1 = styled.div`
   span {
     color: #00A5FA;
   }
+
+  @media (max-width: 600px) {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+
+    div {
+      /* width: 300px; */
+      /* margin: 10px 21px; */
+      /* padding: 5px; */
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 30px;
+      line-height: 42px;
+      width:300px;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    h6 {
+      font-size: 14px;
+      width: 410px;
+    }
+
+    .button {
+      
+    }
+  }
 `
 
 export const Image1 = styled.div`
   img {
     margin-top: -50px;
     width: 700px;
+  }
+
+  @media (max-width: 600px) {
+    img {
+      margin-top: 0px;
+      width: 300px;
+    };
   }
 `
 export const Content2 = styled.div`
@@ -100,6 +143,33 @@ export const Content2 = styled.div`
     margin-top: 35px;
     border-radius: 30px;
   }
+  
+  @media (max-width: 600px) {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+
+    div {
+      
+    }
+
+   h1 {
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+      width:355px;
+      align-items: center;
+      margin-bottom: 30px;
+   }
+
+   video {
+    width: 370px;
+    margin-top: 35px;
+    border-radius: 30px;
+    margin-top: -10px;
+   }
+  }
 `
 export const Text = styled.h1`
   margin-top: 80px;
@@ -113,9 +183,18 @@ export const Text = styled.h1`
   span {
     color: #00A5FA;
   }
+
+  @media (max-width: 600px) {
+      text-align: center;
+      font-size: 9px;
+      line-height: 28px;
+      width:357px;
+      align-items: center;
+      margin-bottom: 30px;
+  }
  `
 
-export const Text2 = styled.h1`
+export const TextClientes = styled.h1`
   margin-top: 50px;
   margin-bottom: 80px;
   font-size: 15px;
@@ -126,6 +205,11 @@ export const Text2 = styled.h1`
 
   span {
     color: #00A5FA;
+  }
+
+  @media (max-width: 600px) {
+    text-align: center;
+      font-size: 12px;
   }
  `
 export const Text3 = styled.h1`
@@ -139,6 +223,10 @@ color: #1A2254;
 span {
   color: #00A5FA;
 }
+
+@media (max-width: 600px) {
+      font-size: 12px;
+  }
 `
 export const Content3 = styled.div`
   margin: 10px 18px;
@@ -195,6 +283,33 @@ export const Content3 = styled.div`
     /* margin-top: 10px; */
     width: 50px;
   }
+
+  @media (max-width: 600px) {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 0px; */
+
+    h1 {
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+      width:355px;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 50px;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+    }
+  }
+  
 `
 
 export const Image2 = styled.div`
@@ -202,6 +317,12 @@ export const Image2 = styled.div`
     /* display: block; */
     /* margin: auto; */
     width: 700px;
+  }
+
+  @media (max-width: 600px) {
+    width: 50px;
+    align-items: center;
+    align-content: center;
   }
 `
 

@@ -16,4 +16,10 @@ export const Container = styled.button`
     background-color: #FFF;
   color: #17A4D0;
   }
+
+  @media (max-width: 600px) {
+    font-size: 11px;
+    width: 130px;
+    height: 50px;
+  }
   `;

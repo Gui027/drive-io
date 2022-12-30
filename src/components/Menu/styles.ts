@@ -11,4 +11,8 @@ export const ItemList = styled.li`
   a {
     color: #1A2254;
   }
+  
+  @media (max-width: 600px) {
+    display: none;
+   }
 `
