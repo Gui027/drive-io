@@ -12,6 +12,13 @@ export const ItemList = styled.li`
     align-content: center;
     width: 30px;
     height: 30px;
+    padding: 4px;
+
+    @media (max-width: 600px) {
+      width: 23px;
+      height: 23px;
+      padding: 4px;
+    }
 
     &:hover {
       background-color: #FFF;

@@ -14,9 +14,17 @@ export const Container = styled.div`
   font-family: "Open Sans";
   padding-top: 40px;
   color: #fff;
-
+  
   img {
     width: 150px;
+  }
+  
+  @media (max-width: 600px) {
+    padding-top: 20px;
+
+    img {
+      width: 90px;
+    }
   }
 
   .footer-content{
@@ -25,6 +33,9 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
+    @media (max-width: 600px) {
+    }
   }
 
   .footer-content h3{
@@ -39,6 +50,11 @@ export const Container = styled.div`
     margin: 10px auto;
     line-height: 28px;
     font-size: 18px;
+
+    @media (max-width: 600px) {
+      font-size: 15px;
+      max-width: 350px;
+    }
   }
 
   .footer-bottom{
@@ -47,12 +63,20 @@ export const Container = styled.div`
     padding: 20px 0;
     text-align: center;
     margin-top: 20px;
+
+    @media (max-width: 600px) {
+      padding: 10px 0;
+    }
   }
 
   .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+
+    @media (max-width: 600px) {
+      font-size: 12px;
+    }
   }
 
   .footer-content span{
@@ -60,4 +84,5 @@ export const Container = styled.div`
     opacity: .4;
     font-weight: 200px;
   }
+
 `

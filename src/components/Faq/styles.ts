@@ -11,6 +11,10 @@ export const Faq = styled.main`
 
   .accordion {
     width: 999px;
+
+    @media (max-width: 600px) {
+      width: 370px;
+  }
   }
 
   .item {
@@ -27,7 +31,13 @@ export const Faq = styled.main`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+     font-size: 10px;
+     margin-bottom: 12px;
+  }
   }
 
   .content {
@@ -35,6 +45,10 @@ export const Faq = styled.main`
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
+
+    @media (max-width: 600px) {
+     font-size: 13px;
+  }
   }
 
   .content.show {

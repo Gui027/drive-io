@@ -41,9 +41,11 @@ function Home() {
         <h1>Mais do que um rastreador, uma <span>solução</span> <br /> integrada de <span>controle de frota</span></h1>
       </S.Text>
       <S.Content3>
-        <S.Image2>
-          <img src={Image2} alt="imagem cel de lado" />
-        </S.Image2>
+        <div>
+          <S.Image2>
+            <img src={Image2} alt="imagem cel de lado" />
+          </S.Image2>
+        </div>
         <div>
           <img src={LogoUpdate} alt="logo update" />
           <h1>Aplicativo <span>Drive IO</span></h1>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
+  /* width: 100%; */
   /* margin: 0px 18px;
   padding: 0px 20px; */
   overflow-x: hidden;
@@ -113,7 +113,8 @@ export const Image1 = styled.div`
   @media (max-width: 600px) {
     img {
       margin-top: 0px;
-      width: 300px;
+      width: 350px;
+      margin-left: -30px;
     };
   }
 `
@@ -235,12 +236,22 @@ export const Content3 = styled.div`
   display: flex;
   flex-direction: row;
 
+  @media (max-width: 600px) {
+    display: flex;
+  flex-direction: column;
+  }
+
   span {
     color: #00A5FA;
   }
 
   div {
-    margin-top: 20px
+    margin-top: 20px;
+
+    @media (max-width: 600px) {
+    /* background-color: red; */
+    margin-top: 0px;
+  }
   }
 
   .iconCheck {
@@ -248,6 +259,10 @@ export const Content3 = styled.div`
     font-size: 30px;
     margin-left: -40px;
     margin-right: 8px;
+
+    @media (max-width: 600px) {
+      font-size: 20px;
+  }
   }
 
   h1 {
@@ -255,6 +270,15 @@ export const Content3 = styled.div`
     font-weight: bold;
     color: #1A2254;
     margin-bottom: 30px;
+
+    @media (max-width: 600px) {
+      text-align: center;
+      font-size: 18px;
+      line-height: 28px;
+      width:355px;
+      align-items: center;
+      margin-bottom: 30px;
+  }
   }
 
   h6 {
@@ -265,9 +289,14 @@ export const Content3 = styled.div`
     margin-bottom: 10px;
     /* width: 331px; */
     /* line-height: 8px; */
+    @media (max-width: 600px) {
+      
+  }
   }
 
   h5 {
+    @media (max-width: 600px) {
+    }
   }
 
   ul {
@@ -277,36 +306,22 @@ export const Content3 = styled.div`
     align-content: center;
     font-size: 14px;
     color: black;
+    @media (max-width: 600px) {
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
   }
 
   img {
     /* margin-top: 10px; */
     width: 50px;
-  }
 
-  @media (max-width: 600px) {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    /* height: 400px; */
-    display: flex;
-    flex-direction: column;
-    /* margin-top: 0px; */
-
-    h1 {
-      text-align: center;
-      font-size: 18px;
-      line-height: 28px;
-      width:355px;
-      align-items: center;
-      margin-bottom: 30px;
-    }
-
-    img {
-      width: 50px;
+    @media (max-width: 600px) {
       align-items: center;
       justify-content: center;
-      align-self: center;
+      align-content: center;
+      width: 50px;
+      margin-left: 44%;
     }
   }
   
@@ -314,15 +329,13 @@ export const Content3 = styled.div`
 
 export const Image2 = styled.div`
   img {
-    /* display: block; */
-    /* margin: auto; */
     width: 700px;
   }
 
   @media (max-width: 600px) {
-    width: 50px;
-    align-items: center;
-    align-content: center;
+    margin: 0px -400px;
+    padding: 0px;
+    width: 90px;
   }
 `
 
@@ -346,19 +359,28 @@ export const Content4 = styled.div`
   }
 
   .prova {
-
+    @media (max-width: 600px) {
+      align-items: center;
+      align-content: center;
+    }
   }
 
   .box {
-  margin: 0px 18px;
-  padding: 0px 20px;
-  display: flex;
-  flex-direction: row;
-  
-  h1 {
-    margin-top: 6px;
-  }
-  /* align-content: center; */
+    margin: 0px 18px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 600px) {
+      margin: 0px 0px;
+      padding: 0px 16px;
+    }
+    
+
+    h1 {
+      margin-top: 6px;
+    }
+    /* align-content: center; */
   }
 
   h1 {
@@ -368,6 +390,11 @@ export const Content4 = styled.div`
     font-weight: 600;
     color: #005BE8;
     margin-bottom: 6px;
+
+    @media (max-width: 600px) {
+      font-size: 13px;
+      padding: 0px 0px;
+    }
   }
 
   h2 {
@@ -375,6 +402,26 @@ export const Content4 = styled.div`
     padding: 0px 20px;
     font-size: 15px;
     font-weight: 500;
+
+    @media (max-width: 600px) {
+      font-size: 10px;
+      padding: 0px 0px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    div {
+      img {
+        width: 40px;
+        border-radius: 50%;
+        border: 2px solid #005BE8;
+        margin-bottom: 50px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        align-self: center;
+      }
+    }
   }
 `
 
@@ -389,6 +436,16 @@ export const TextProva = styled.div`
   font-style: italic;
   font-weight: 500;
   width: 429px;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    width: 200px;
+    padding: 0px;
+    /* margin: 0px 18px; */
+    /* padding: 0px 20px; */
+  }
 `
 
 export const Prices = styled.div`

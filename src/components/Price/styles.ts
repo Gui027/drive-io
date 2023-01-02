@@ -14,6 +14,12 @@ export const Box = styled.div`
   justify-content: center;
   display: flex;
   
+  @media (max-width: 600px) {
+    font-size: 15px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+
   span {
     color: #00A5FA;
   }
