@@ -13,12 +13,14 @@ import Footer from '../../components/Footer';
 import { AiOutlineCheckCircle } from 'react-icons/ai'
 import Faq from '../../components/Faq';
 import Price from '../../components/Price';
+import Menu1 from '../../components/Menu1';
 
 function Home() {
 
   return (
     <S.Container className="App">
-      <Header />
+      {/* <Header /> */}
+      <Menu1 />
       <S.Content1 id="home">
         <div>
           <h1>Orquestre o seu processo de <span>gestão de frotas</span> e ativos</h1>
