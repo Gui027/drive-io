@@ -197,7 +197,7 @@ export const Text = styled.h1`
 
 export const TextClientes = styled.h1`
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   font-size: 15px;
   text-align: center;
   font-weight: bold;
@@ -344,6 +344,7 @@ export const Content4 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 
   div {
     img {
@@ -372,7 +373,7 @@ export const Content4 = styled.div`
     flex-direction: row;
 
     @media (max-width: 600px) {
-      margin: 0px 0px;
+      margin: 6px 2px;
       padding: 0px 16px;
     }
     
@@ -392,8 +393,9 @@ export const Content4 = styled.div`
     margin-bottom: 6px;
 
     @media (max-width: 600px) {
-      font-size: 13px;
+      font-size: 16px;
       padding: 0px 0px;
+      margin: 0px 10px;
     }
   }
 
@@ -404,15 +406,19 @@ export const Content4 = styled.div`
     font-weight: 500;
 
     @media (max-width: 600px) {
-      font-size: 10px;
+      font-size: 11px;
+      line-height: 12px;
       padding: 0px 0px;
+      margin: 2px 10px;
     }
   }
 
   @media (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
     div {
       img {
-        width: 40px;
+        width: 50px;
         border-radius: 50%;
         border: 2px solid #005BE8;
         margin-bottom: 50px;
@@ -440,8 +446,8 @@ export const TextProva = styled.div`
   @media (max-width: 600px) {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
-    width: 200px;
+    font-size: 18px;
+    width: 250px;
     padding: 0px;
     /* margin: 0px 18px; */
     /* padding: 0px 20px; */
