@@ -77,6 +77,7 @@ export const Content1 = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 0px;
+    padding: 0px;
 
     div {
       /* width: 300px; */
@@ -90,7 +91,8 @@ export const Content1 = styled.div`
       line-height: 42px;
       width:300px;
       align-items: center;
-      margin-bottom: 30px;
+      margin-top: 22px;
+      margin-bottom: 12px;
     }
 
     h6 {
@@ -330,12 +332,16 @@ export const Content3 = styled.div`
 export const Image2 = styled.div`
   img {
     width: 700px;
-  }
-
-  @media (max-width: 600px) {
-    margin: 0px -400px;
-    padding: 0px;
-    width: 90px;
+      @media (max-width: 600px) {
+        margin: 0px -400px;
+        padding: 0px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin: 20px;
+      }
   }
 `
 

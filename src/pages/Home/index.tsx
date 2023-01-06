@@ -1,6 +1,6 @@
 import * as S from './styles';
 import Button from '../../components/Button';
-import Header from '../../components/Header';
+// import Header from '../../components/Header';
 import Image1 from '../../assets/especial_1.png';
 import Image2 from '../../assets/mockup1.png';
 import Video from '../../assets/video.mp4';
@@ -77,7 +77,7 @@ function Home() {
         <div className="prova">
           <div><S.TextProva>“Hoje, nossas equipes atendem até 50% mais incidentes e nossa alocação caiu de 5 para 3 minutos. No nosso ramo, o tempo representa vida.”</S.TextProva></div>
           <div className="box">
-            <img src={ImageProva1} alt="imagem cel de lado" />
+            <img src={ImageProva1} />
             <div>
               <h1>KÁTIA MARQUES</h1>
               <h2>Supervisora da Central<br />
@@ -85,7 +85,7 @@ function Home() {
           </div>
           <div><S.TextProva>“Com o monitoramento, conseguimos eliminar idas desnecessárias ao posto de gasolina e nosso custo com combustível caiu 37%.”</S.TextProva></div>
           <div className="box">
-            <img src={ImageProva2} alt="imagem cel de lado" />
+            <img src={ImageProva2} />
             <div>
               <h1>PAULO SILVA</h1>
               <h2>Gerente de frota<br />
@@ -96,7 +96,7 @@ function Home() {
           <div><S.TextProva>"Com o monitoramento, conseguimos abolir maus hábitos no uso dos veículos e, assim, reduzimos em 50% os gastos com combustível.”
           </S.TextProva></div>
           <div className="box">
-            <img src={ImageProva3} alt="imagem cel de lado" />
+            <img src={ImageProva3} />
             <div>
               <h1>FELIPE ORLANDO</h1>
               <h2>Gestor de equipe técnica<br />
@@ -104,7 +104,7 @@ function Home() {
           </div>
           <div><S.TextProva>“Nossa capacidade ociosa diminuiu e somos mais pontuais nos atendimentos graças ao monitoramento. Nossas multas caíram em 50%.”</S.TextProva></div>
           <div className="box">
-            <img src={ImageProva4} alt="imagem cel de lado" />
+            <img src={ImageProva4} />
             <div>
               <h1>LUIZ HENRIQUE
               </h1>

@@ -8,7 +8,7 @@ export const Box = styled.div`
 }
 
 header {
-    background-color: #1A2254;
+    background-color: #0148B0;
     box-shadow: 0px 3px 10px #464646;
 }
 
