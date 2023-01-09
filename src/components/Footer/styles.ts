@@ -11,7 +11,7 @@ export const Container = styled.div`
   background-color: #1A2254;
   height: auto;
   width: 100vw;
-  font-family: "Open Sans";
+  font-family: "Ubuntu";
   padding-top: 40px;
   color: #fff;
   
