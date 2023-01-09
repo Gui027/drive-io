@@ -4,7 +4,7 @@ export const Box = styled.div`
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header {
