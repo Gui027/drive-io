@@ -9,7 +9,7 @@ export const Box = styled.div`
 
 header {
     background-color: #0148B0;
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 1px 2px #464646;
 }
 
 .nav-bar {
