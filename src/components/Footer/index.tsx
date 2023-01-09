@@ -2,6 +2,7 @@ import * as S from './styles';
 
 import LogoBranca from '../../assets/Drive_branco.png';
 import Social from '../Social Icons';
+import img from '../../assets/updc_maior.png';
 
 const Footer = () => {
   return (
@@ -15,7 +16,8 @@ const Footer = () => {
           <Social />
         </div>
         <div className="footer-bottom">
-          <p>copyright &copy;2023 Drive-IO. designed by <span>Update</span></p>
+          <p>copyright &copy;2023 Drive-IO.</p>
+          <img src={img} />
         </div>
       </S.Container>
     </>

@@ -53,7 +53,7 @@ export const Container = styled.div`
     width: 400px;
 
     @media (max-width: 600px) {
-      font-size: 15px;
+      font-size: 13px;
       max-width: 350px;
     }
   }
@@ -64,6 +64,9 @@ export const Container = styled.div`
     padding: 20px 0;
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media (max-width: 600px) {
       padding: 10px 0;
@@ -74,10 +77,15 @@ export const Container = styled.div`
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    margin-right: 20px;
 
     @media (max-width: 600px) {
       font-size: 12px;
     }
+  }
+
+  .footer-bottom img {
+    width: 50px;
   }
 
   .footer-content span{
