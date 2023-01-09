@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.button`
-  background-color: #17A4D0;
-  border: 1px solid #17a4d0;
+  background-color: #0148B0;
+  border: 1px solid #0148B0;
   color: #FFF;
   font-size: 14px;
   font-weight: 400;
@@ -14,7 +14,7 @@ export const Container = styled.button`
 
   &:hover {
     background-color: #FFF;
-  color: #17A4D0;
+  color: #0148B0;
   }
 
   @media (max-width: 600px) {
