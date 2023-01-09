@@ -48,8 +48,9 @@ export const Container = styled.div`
   .footer-content p{
     max-width: 500px;
     margin: 10px auto;
-    line-height: 28px;
-    font-size: 18px;
+    line-height: 25px;
+    font-size: 15px;
+    width: 400px;
 
     @media (max-width: 600px) {
       font-size: 15px;
