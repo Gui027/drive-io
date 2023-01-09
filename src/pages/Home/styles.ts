@@ -5,7 +5,7 @@ export const Container = styled.div`
   /* margin: 0px 18px;
   padding: 0px 20px; */
   overflow-x: hidden;
-  background-color: #d2d4fa;
+  background-color: #fff;
 
   main {
     flex: 1;
