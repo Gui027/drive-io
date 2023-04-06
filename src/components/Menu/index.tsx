@@ -7,7 +7,7 @@ const Menu = () => {
     <S.ItemList><a href="#planos">Planos</a></S.ItemList>
     <S.ItemList><a href="#clientes">Clientes</a></S.ItemList>
     <S.ItemList><a href="#duvidas">Dúvidas</a></S.ItemList>
-    <S.ItemList><a href="#">Política De Privacidade</a></S.ItemList>
+    <S.ItemList><a href="/politicas">Política De Privacidade</a></S.ItemList>
   </S.MenuList>
 
 };
